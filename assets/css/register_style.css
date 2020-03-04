@@ -1,0 +1,87 @@
+* {
+    font-family: 'Noto Serif', serif;
+    margin: 0;
+    padding: 0;
+}
+form {
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100% ;
+}
+a {
+    text-decoration: none;
+    color: #7e7898 ;
+}
+nav{
+    height: 50px;
+    background-color: darkcyan;
+}
+.wrapper {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(../images/backgrounds/wool.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.login_box {
+    position: relative;
+    margin-right: auto; 
+    margin-left: auto;
+    top: 7%;
+    width: 35%;
+    background-color: #fff;
+    border: 1px solid #EDEDED;
+    border-radius: 7px;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+.login_header {
+    width: 100%;
+    height: 90px;
+    /* background-color: #a5a4ad; */
+    /* background-color: #b8d41d; */
+    background-color: darkcyan;
+    color: #565266;
+    text-shadow: #000 0.5px 0.5px 0;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.login_header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #da5e42a8;
+    text-shadow: #000 0.5px 0.5px 0;
+    font-size: 250%;
+}
+
+input[type="submit"]{
+    background-color: #a5a4ad;
+    border: 1x solid ;
+    margin: 5px 0 5px 0;
+    padding: 5px 10px 5px 10px;
+    color: #565266;
+    text-shadow: #000 0.5px 0.5px 0;
+    font-size: 125%;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    border: 1px solid #e5e5e5;
+    margin-top: 5px;
+    width: 50%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+ input[type="text"]:hover, input[type="email"]:hover, input[type="password"]:hover {
+    border-color: #a5a4ad;
+}
+
+#second {
+    display: none;
+}
